@@ -21,3 +21,7 @@ git config --global user.name "Kate"
 git config --global user.email  kate.point@mail.ru
 ```
 **# Education: PolesSU**
+
+English language: A2
+
+My project [https://github.com/Katsiarinka/rsschool-cv.git]
