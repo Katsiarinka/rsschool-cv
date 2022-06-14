@@ -1,56 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-</head>
+    </head>
 <body>
-    <div class="cv">
-        <section>
-            <h1>Kate Mazurkevich</h1>
-            <h2>Accountant</h2>
-            <img src="105651397.jfif" alt="">
-            <div class="contacts">
-                <div class="contact">
-                    <div class="contact__type">
-                        Phone
-                    </div>
-                    +375 44 4567662
+    <header class="header">
+        <div class="conteiner">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                </ul>
+              </nav>
+        </div>
+     </header>
+      <main class="main">
+        <div class="main-conteiner">
+            <section class="section main section" id="my profile">
+                <img src="./assets/img/105651397.jfif" alt="my foto">
+                <div class="title_cv">
+                    <h1 class="section main">
+                        Kate Mazurkevich
+                        <hr>
+                    </h1>
+                    <h2 class="profil">Accountant</h2>
                 </div>
-                <div class="contact">
-                    <div class="contact__type">
-                        Email
-                    </div>
-                    <div class="contact__value">
-                        <a href="mailto:kate.point@mail.ru">kate.point@mail.ru</a>
-                    </div>
-                    </div>
-                    <div class="contact">
-                        <div class="contact__type">
-                            GitHub
-                        </div>
-                        <div class="contact__value">
-                            <a href="https://github.com/Katsiarinka">https://github.com/Katsiarinka</a>
-                        </div>
-                    </div>
-            </div>
-            <div class="mydescription">
-                I have a clear, logical mind with a practical approach to problem-solving
-                and a drive to see things through to completion.
-                I am eager to learn, I enjoy overcoming challenges
-                My skils:
-                *Creativity;
-                *Interpersonal Skills;
-                *Critical Thinking;
-                *Problem Solving;
-                *Public Speaking;
-                *Customer Service Skills;
-                *Teamwork Skills;
-                *Communication.
-            </div>
-        </section>
+            </section>
+            <section class="section" id="contacts"> 
+                <h3 class="section-title">Contacts:</h3>
+                <ul class="list">
+                    <li class="contact list">
+                        Email: <a href="mailto:kate.point@mail.ru" title="email">kate.point@mail.ru</a>
+                      </li>
+                     <li class="contact list">
+                        GitHub: <a href="mailto:https://github.com/Katsiarinka" title="github">https://github.com/Katsiarinka</a>
+                      </li>
+                      <li class="contact list">
+                        Phone: <a href="+375(44)4567663" title="Phone">+375(44)4567663</a>
+                      </li>
+                </ul>
+                </ul>
+             </section>
+             <section class="section" id="Summary"> 
+                <h3 class="section-title">Summary:</h3>
+                <p>I am experienced accountant, I know many areas of work in the field of enterprise and logistics. At the moment I plan to change the type of activity and retrain in front-end.</p>
+             </section>
+             <section class="section" id="My skils"> 
+                <h3 class="section-title">My skils:</h3>
+                    <ul class="skils">
+                      <li class="skils-item">Creativity;</li>
+                      <li class="skils-item">Interpersonal Skills;</li>
+                      <li class="skils-item">Critical Thinking;</li>
+                      <li class="skils-item">Public Speaking;</li>
+                      <li class="skils-item">Teamwork Skills;</li>
+                      <li class="skils-item">Communication;</li>
+                    </ul>
+             </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="conteiner">
+        </div>
+        footer
+      </footer>
+    <div class="cv">
     </div>
 </body>
 </html>
